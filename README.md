@@ -16,7 +16,7 @@ console.log("monitoring start");
   const page = await browser.newPage();
   //await page.goto('https://google.com');
   //await page.screenshot({path: 'google.png'});
-  await page.goto('https://mining.freebitco.in/mining.html?userid=10290802&auth=f6de70107812d689548f596e12278651c16715e42441349cac33b0eea2df0711');
+  await page.goto('xxxxx');
   await page.screenshot({path: 'backup/montiorstart.png'});
 
 
