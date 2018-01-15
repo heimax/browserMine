@@ -5,8 +5,6 @@ const puppeteer = require('puppeteer');
 (async () => {
 const browser =  await puppeteer.launch();
 
-
-
 console.log("monitoring start");
 //while (true){
 //   testMining();
@@ -45,7 +43,7 @@ console.log("monitoring start");
       //start button not exist
       if (counter == 3){
 		  
-        await page.goto('https://mining.freebitco.in/mining.html?userid=10290802&auth=f6de70107812d689548f596e12278651c16715e42441349cac33b0eea2df0711');
+        await page.goto('XXXX');
 		await page.screenshot({path: 'backup/montior_reload'+timeString+'.png'});
 		 
 		 counter = 0;
